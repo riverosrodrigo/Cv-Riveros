@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!-- cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- linkeo normalize (reseteo de paginas) -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- linkeo css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!-- INICIA HEADER -->
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="">Acerca de</a>
+                <a href="">Trabajo</a>
+                <a href="">Contacto</a>
+            </nav>
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Rodrigo Riveros</h1>
+                    <h2 class="profesion">Desarrollador Web</h2>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="main">
+        <div class="contenedor">
+            <section class="acerca-de">
+                <div class="foto">
+                    <img src="./img/3.jpeg" width="115" alt="Rodrigo Riveros">
+                </div>
+                <div class="texto">
+                    <h2 class="titulo">Acerca de</h2>
+                    <p>Lorem ipsum <span class="bold">dolor sit amet</span> consectetur adipisicing elit. Eveniet, et! Reprehenderit odit deserunt aliquam numquam?</p>
+                </div>
+        </div>
+
+        <section class="trabajos">
+            <div class="contenedor">
+            <h3 class="titulo">Trabajos</h3> 
+                <div class="contenedor-trabajos">
+                <div class="trabajo">
+                    <div class="portfolio">
+                        <img src="./img-trabajos/proyecto-silmar.jpg" alt="Silmar Bazar">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Silmar Bazar</p>
+                        <p class="categoria">HTML-CSS-JS</p>
+                    </div>
+                </div>
+                <div class="trabajo">
+                    <div class="portfolio">
+                        <img src="./img-trabajos/proyecto-canada.jpg" alt="Papelera Canada">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Papelera Canada</p>
+                        <p class="categoria">HTML-CSS-JS</p>
+                    </div>
+                </div>
+                <div class="trabajo">
+                    <div class="portfolio">
+                        <img src="./img-trabajos/proyecto-qipa.png" alt="QIPA">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Qipa</p>
+                        <p class="categoria">HTML-CSS-JS</p>
+                    </div>
+                </div>
+                <div class="trabajo">
+                    <div class="portfolio">
+                        <img src="./img-trabajos/proyecto-lujan.png" alt="Colegio Lujan">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Colegio Lujan</p>
+                        <p class="categoria">HTML-CSS-JS</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- INICIA FOOTER -->
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" action="">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section> 
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a> 
+                <a class="github" href="#"><i class="fa-brands fa-github"></i></a> 
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
