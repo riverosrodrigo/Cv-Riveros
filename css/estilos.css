@@ -235,3 +235,32 @@ footer .redes-sociales a {
 }
 footer .redes-sociales .github:hover{background-color: #666666;}
 footer .redes-sociales .linkedin:hover{background-color: #0077b5;}
+/* RESPONSIVE 800px*/
+    @media screen and (max-width: 800px) {
+        header .menu{
+            text-align: center;
+        }
+        .trabajos .contenedor .contenedor-trabajos .trabajo{
+            width: 46%;
+        }
+    }
+    @media screen and (max-width: 563px) {
+        header .contenedor .menu a{
+            display: block;
+            
+        }
+    }
+    /* RESPONSIVE 500px*/
+    @media screen and (max-width: 500px) {
+        header .contenedor .menu a{
+            display: block
+        }
+
+        header .contenedor-texto .texto .nombre{
+            font-size: 35px;
+        }
+        header .contenedor-texto .texto .profesion{
+            font-size: 18px;
+        }
+
+    }
